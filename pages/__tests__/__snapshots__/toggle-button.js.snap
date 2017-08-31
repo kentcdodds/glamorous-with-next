@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`has different styles when on: true 1`] = `
+Snapshot Diff:
+- First value
++ Second value
+
+@@ -8,22 +8,22 @@
+   line-height: 1.4;
+   text-align: center;
+   cursor: pointer;
+   border-radius: 4px;
+   color: #fff;
+-  background-color: #337ab7;
+-  border-color: #285f8f;
++  background-color: #22527b;
++  border-color: #173853;
+ }
+ 
+ .glamor-0:hover,
+ [data-glamor-0]:hover,
+ .glamor-0:active,
+ [data-glamor-0]:active,
+ .glamor-0:focus,
+ [data-glamor-0]:focus {
+-  background-color: #285f8f;
+-  border-color: #1d4567;
++  background-color: #1d4567;
++  border-color: #122a3f;
+ }
+ 
+ <button
+   className="glamor-0"
+ />
+`;
+
+exports[`has off styles applied by default 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #285f8f;
+}
+
+.glamor-0:hover,
+[data-glamor-0]:hover,
+.glamor-0:active,
+[data-glamor-0]:active,
+.glamor-0:focus,
+[data-glamor-0]:focus {
+  background-color: #285f8f;
+  border-color: #1d4567;
+}
+
+<button
+  class="glamor-0"
+/>
+`;

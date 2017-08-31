@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`has off styles applied by default 1`] = `
+<div>
+  <button
+    data-test="button"
+  >
+    Toggle me
+  </button>
+  <div>
+    Toggled Off
+  </div>
+</div>
+`;
+
+exports[`has on styles applied when initialToggledOn: true 1`] = `
+<div>
+  <button
+    data-test="button"
+  >
+    Toggle me
+  </button>
+  <div>
+    Toggled On
+  </div>
+</div>
+`;
