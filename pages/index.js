@@ -1,20 +1,28 @@
 import React from 'react'
 import {rehydrate, css} from 'glamor'
-import Toggle from './toggler'
+import Toggle from 'react-toggled'
+import {Div} from 'glamorous'
 import ToggleButton from './toggle-button'
+
+const onClassName = css({color: 'blue', fontSize: 30})
+const offClassName = css({color: 'red', fontSize: 20})
 
 function Index() {
   return (
-    <div>
+    <Div display="flex" justifyContent="center" marginTop={40}>
       <Toggle>
         {({on, getTogglerProps}) => (
-          <div>
-            <ToggleButton {...getTogglerProps({on})}>Toggle me</ToggleButton>
-            <div>{on ? 'Toggled On' : 'Toggled Off'}</div>
-          </div>
+          <Div display="flex" justifyContent="center" flexDirection="column">
+            <ToggleButton on={on} {...getTogglerProps()}>
+              Toggle me
+            </ToggleButton>
+            <div className={on ? onClassName : offClassName}>
+              {on ? 'Toggled On' : 'Toggled Off'}
+            </div>
+          </Div>
         )}
       </Toggle>
-    </div>
+    </Div>
   )
 }
 

@@ -1,5 +1,5 @@
 {
-  "presets": ["env", "react"],
+  "presets": [["env", {"exclude": ["transform-regenerator"]}], "react"],
   "plugins": [
     "glamorous-displayname",
     "transform-class-properties",
