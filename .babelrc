@@ -1,5 +1,5 @@
 {
-  "presets": [["env", {"exclude": ["transform-regenerator"]}], "react"],
+  "presets": ["next/babel"],
   "plugins": [
     "glamorous-displayname",
     "transform-class-properties",

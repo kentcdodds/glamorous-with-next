@@ -2,7 +2,7 @@ import React from 'react'
 import {rehydrate, css} from 'glamor'
 import Toggle from 'react-toggled'
 import {Div} from 'glamorous'
-import ToggleButton from './toggle-button'
+import ToggleButton from '../components/toggle-button'
 
 const onClassName = css({color: 'blue', fontSize: 30})
 const offClassName = css({color: 'red', fontSize: 20})

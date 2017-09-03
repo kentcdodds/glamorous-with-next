@@ -8,7 +8,7 @@ notifications:
 node_js:
   - '8'
 script:
-  - npm run test
+  - npm run validate
 branches:
   only:
     - master
