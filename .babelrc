@@ -1,4 +1,4 @@
 {
-  "presets": ["next/babel", "env"],
+  "presets": ["next/babel"],
   "plugins": ["glamorous-displayname"]
 }
