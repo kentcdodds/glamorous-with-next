@@ -1,8 +1,4 @@
 {
   "presets": ["next/babel", "env"],
-  "plugins": [
-    "glamorous-displayname",
-    "transform-class-properties",
-    "transform-object-rest-spread"
-  ]
+  "plugins": ["glamorous-displayname"]
 }
